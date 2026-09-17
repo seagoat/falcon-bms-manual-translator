@@ -205,7 +205,27 @@ python tests\test_e2e.py
 
 ---
 
+## 密钥安全
+
+API key **不写进任何代码，也不放在仓库目录里**。读取顺序（优先级从高到低）：
+
+1. 环境变量 `DEEPSEEK_API_KEY`（推荐）
+2. `config/local.json` 的 `deepseek_api_key` 字段 —— 该文件已被 `.gitignore` 排除
+3. 都没有时给出明确报错，而不是静默失败
+
+```powershell
+# 推荐：用户级环境变量，密钥不进仓库目录
+setx DEEPSEEK_API_KEY "sk-你的key"      # 重开终端后生效
+```
+
+`config/local.example.json` 是不含密钥的模板，可安全提交。
+
+---
+
 ## 说明
 
 本项目是针对 Falcon BMS 社区文档的个人翻译工具。
 手册原文版权归 Benchmark Sims 与相关文档团队所有，本仓库不包含任何手册内容。
+
+开发过程记录（含每个缺陷的复现与修复依据）见 [docs/DEVELOPMENT_LOG.md](docs/DEVELOPMENT_LOG.md)，
+冻结的接口契约见 [CONTRACT.md](CONTRACT.md)。
