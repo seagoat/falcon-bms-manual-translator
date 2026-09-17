@@ -1,0 +1,29 @@
+{
+ "deepseek-flash": {
+  "batches": 3,
+  "avg_latency": 9.2,
+  "avg_prompt": 1620,
+  "avg_completion": 2040,
+  "avg_reasoning": 1521,
+  "all_ok": true
+ },
+ "deepseek-v4-pro": {
+  "batches": 3,
+  "avg_latency": 65.9,
+  "avg_prompt": 1671,
+  "avg_completion": 5825,
+  "avg_reasoning": 5228,
+  "all_ok": true
+ },
+ "suppression_probe": {
+  "elapsed": 2.99,
+  "prompt": 1597,
+  "completion": 511,
+  "reasoning": null,
+  "n_ok": "12/12",
+  "ok": true,
+  "err": null,
+  "sample_zh": "任何警戒面板（Caution Panel）上的单个指示灯亮起后不久（IFF 除外），主警戒灯（MASTER CAUTIO",
+  "finish": "stop"
+ }
+}

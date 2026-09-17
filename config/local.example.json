@@ -1,0 +1,25 @@
+{
+  "_说明": "复制本文件为 config/local.json 后填写。config/local.json 已被 .gitignore 排除，不会入库。",
+  "_也可以": "改用环境变量 DEEPSEEK_API_KEY，优先级高于本文件。",
+
+  "deepseek_api_key": "",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "fallback_model": "deepseek-flash",
+  "provider": "deepseek",
+  "thinking_mode": "disabled",
+
+  "concurrency": 8,
+  "batch_segments": 12,
+  "batch_chars": 1800,
+  "request_timeout": 120,
+  "max_retries": 3,
+
+  "data_dir": "data",
+  "origin_dir": "origin",
+  "render_dpi": 110,
+
+  "web_host": "127.0.0.1",
+  "web_port": 8777,
+  "usd_cny": 7.1
+}

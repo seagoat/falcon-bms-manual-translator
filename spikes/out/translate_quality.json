@@ -1,0 +1,91 @@
+{
+ "model": "deepseek-v4-pro",
+ "elapsed_s": 46.46,
+ "usage": {
+  "prompt_tokens": 1609,
+  "completion_tokens": 4402,
+  "total_tokens": 6011,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3847
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 1609
+ },
+ "pairs": [
+  {
+   "id": 0,
+   "page": 15,
+   "en": "MASTER CAUTION light",
+   "zh": "主警戒灯（MASTER CAUTION）"
+  },
+  {
+   "id": 1,
+   "page": 15,
+   "en": "The MASTER CAUTION light activates shortly after any individual light on the Cau- tion Panel illuminates (excluding IFF). It does not activate simultaneously with the warning lights.",
+   "zh": "主警戒灯（MASTER CAUTION）在警戒面板上任何单独灯点亮后不久激活（IFF除外）。它不会与警告灯同时激活。"
+  },
+  {
+   "id": 2,
+   "page": 15,
+   "en": "The MASTER CAUTION light can be reset by pressing it, unless the triggering caution light is the ELEC SYS light.",
+   "zh": "主警戒灯（MASTER CAUTION）可通过按压来复位，除非触发警戒灯是电气系统（ELEC SYS）灯。"
+  },
+  {
+   "id": 3,
+   "page": 15,
+   "en": "It is advisable to reset the light promptly to enhance the visibility of other triggering events. If not reset, the MASTER CAUTION light will persistently remain illuminated as long as the individual caution light stays on. In essence, if the caution light goes out (indicating the fault is cleared), the master caution light will also extinguish.",
+   "zh": "建议及时复位该灯，以增强其他触发事件的可见性。如果不复位，只要单独警戒灯保持点亮，主警戒灯（MASTER CAUTION）将一直保持点亮。本质上，如果警戒灯熄灭（表示故障已排除），主警戒灯也会熄灭。"
+  },
+  {
+   "id": 4,
+   "page": 21,
+   "en": "CANOPY",
+   "zh": "座舱盖"
+  },
+  {
+   "id": 5,
+   "page": 21,
+   "en": "The activation of this warning light signals that the canopy hooks or locks are not secured, or there has been a loss of cabin pressure. Descend below 10,000 feet and initiate a landing at the earliest opportunity.",
+   "zh": "该警告灯激活表示座舱盖挂钩或锁未固定，或座舱压力丧失。下降至10,000英尺以下并尽早开始着陆。"
+  },
+  {
+   "id": 6,
+   "page": 21,
+   "en": "The FLCS warning light illuminates whenever there is a PFL warning message associated with the Flight Control System (FLCS). Please consult the Pilot Fault List (PFL) message for further details.",
+   "zh": "只要出现与飞控系统（FLCS）相关的飞行员故障清单（PFL）警告信息，飞控系统（FLCS）警告灯就会点亮。请参阅飞行员故障清单（PFL）信息以获取更多详情。"
+  },
+  {
+   "id": 7,
+   "page": 21,
+   "en": "HYD/OIL PRESS",
+   "zh": "液压/滑油压力"
+  },
+  {
+   "id": 8,
+   "page": 21,
+   "en": "This warning light indicates a low-pressure condition in one or both hydraulic systems or a low engine oil pressure condition, requiring thorough checks:",
+   "zh": "该警告灯指示一个或两个液压系统低压或发动机滑油压力低，需要进行彻底检查："
+  },
+  {
+   "id": 9,
+   "page": 21,
+   "en": "1.Check the oil pressure gauge. If the pressure reads normal, the issue is not related to oil",
+   "zh": "1. 检查滑油压力表。如果压力读数正常，则问题与滑油压力无关"
+  },
+  {
+   "id": 10,
+   "page": 21,
+   "en": "pressure. If the pressure is below 15 psi, indicating low oil pressure, limit throttle movement and initiate a prompt landing. Refer to section 2.1.13 on Oil Leak in the in-flight emergency paragraph later in this section. If on the ground, shut down the engine immediately and wait for the RPM to decrease below 20% before attempting a restart.",
+   "zh": "如果压力低于15 psi，表明滑油压力低，限制油门活动并立即开始着陆。参见本节后文飞行中应急段落中关于滑油泄漏的第2.1.13节。如果在地面，立即关停发动机，等待转速（RPM）降至20%以下后再尝试重新启动。"
+  },
+  {
+   "id": 11,
+   "page": 21,
+   "en": "2. Examine the hydraulic system A & B gauges on the right auxiliary console and verify the pressure:",
+   "zh": "2. 检查右侧辅助控制台上的液压系统A和B仪表并核实压力："
+  }
+ ]
+}

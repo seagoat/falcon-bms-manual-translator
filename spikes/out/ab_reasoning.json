@@ -1,0 +1,416 @@
+[
+ {
+  "label": "A flash:default",
+  "model": "deepseek-flash",
+  "extra": {},
+  "runs": [
+   {
+    "label": "A flash:default",
+    "elapsed": 5.1,
+    "prompt": 1622,
+    "completion": 1038,
+    "reasoning": 534,
+    "complete": "12/12",
+    "acronym_keep": "18/18",
+    "unit_keep": "3/3",
+    "marker_keep": "1/1",
+    "avg_len_ratio": 0.35,
+    "empty": 0,
+    "sample": "主警戒灯（MASTER CAUTION）在警戒面板上任何单个灯亮起后不久即激活（IFF 除外）。它不会与警告灯同时激活。"
+   },
+   {
+    "label": "A flash:default",
+    "elapsed": 8.4,
+    "prompt": 1582,
+    "completion": 1735,
+    "reasoning": 1255,
+    "complete": "12/12",
+    "acronym_keep": "31/32",
+    "unit_keep": "2/2",
+    "marker_keep": "1/1",
+    "avg_len_ratio": 0.38,
+    "empty": 0,
+    "sample": "▪如果应急动力装置（EPU）运行灯亮，检查电气系统（ELEC SYS）警戒灯："
+   },
+   {
+    "label": "A flash:default",
+    "elapsed": 3.2,
+    "prompt": 1656,
+    "completion": 569,
+    "reasoning": 13,
+    "complete": "12/12",
+    "acronym_keep": "29/32",
+    "unit_keep": "0/0",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.35,
+    "empty": 0,
+    "sample": "起落架手柄（棒棒糖）中的红灯也被视为警告灯。它表示起落架或起落架舱门与手柄所指令的位置不一致，除非起落架当前正处于收放过程中。"
+   },
+   {
+    "label": "A flash:default",
+    "elapsed": 25.0,
+    "prompt": 1512,
+    "completion": 5371,
+    "reasoning": 4918,
+    "complete": "12/12",
+    "acronym_keep": "26/45",
+    "unit_keep": "1/1",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.46,
+    "empty": 0,
+    "sample": "“警告——警告”消息会在任一警告灯亮起后 1.5 秒自动激活。"
+   }
+  ],
+  "avg_elapsed": 10.4,
+  "tot_completion": 8713,
+  "tot_reasoning": 6720,
+  "tot_prompt": 6372
+ },
+ {
+  "label": "B flash:effort_none",
+  "model": "deepseek-flash",
+  "extra": {
+   "reasoning_effort": "none"
+  },
+  "runs": [
+   {
+    "label": "B flash:effort_none",
+    "elapsed": 3.4,
+    "prompt": 1597,
+    "completion": 634,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "17/18",
+    "unit_keep": "3/3",
+    "marker_keep": "1/1",
+    "avg_len_ratio": 0.35,
+    "empty": 0,
+    "sample": "主警戒灯（MASTER CAUTION）会在警戒面板上的任一单独指示灯亮起后不久激活（IFF 除外）。它不会与警告灯同时激活。"
+   },
+   {
+    "label": "B flash:effort_none",
+    "elapsed": 2.9,
+    "prompt": 1557,
+    "completion": 485,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "31/32",
+    "unit_keep": "2/2",
+    "marker_keep": "1/1",
+    "avg_len_ratio": 0.39,
+    "empty": 0,
+    "sample": "▪如果 EPU 运行灯亮，检查电气系统（ELEC SYS）警戒灯："
+   },
+   {
+    "label": "B flash:effort_none",
+    "elapsed": 3.3,
+    "prompt": 1631,
+    "completion": 672,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "27/32",
+    "unit_keep": "0/0",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.35,
+    "empty": 0,
+    "sample": "起落架手柄（棒棒糖）中的红灯也被视为警告灯。它表示起落架或起落架舱门与手柄所指令的位置不一致，除非起落架当前正在收放过程中。"
+   },
+   {
+    "label": "B flash:effort_none",
+    "elapsed": 2.4,
+    "prompt": 1487,
+    "completion": 494,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "28/45",
+    "unit_keep": "1/1",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.42,
+    "empty": 0,
+    "sample": "「警告 – 警告」消息在任何警告灯亮起后 1.5 秒自动激活。"
+   }
+  ],
+  "avg_elapsed": 3.0,
+  "tot_completion": 2285,
+  "tot_reasoning": 0,
+  "tot_prompt": 6272
+ },
+ {
+  "label": "C flash:think_off",
+  "model": "deepseek-flash",
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "runs": [
+   {
+    "label": "C flash:think_off",
+    "elapsed": 2.9,
+    "prompt": 1597,
+    "completion": 507,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "17/18",
+    "unit_keep": "3/3",
+    "marker_keep": "1/1",
+    "avg_len_ratio": 0.35,
+    "empty": 0,
+    "sample": "在任何警戒面板（Caution Panel）上的单个指示灯亮起后不久（IFF 除外），主警戒灯（MASTER CAUTION）都会点亮。它不"
+   },
+   {
+    "label": "C flash:think_off",
+    "elapsed": 2.9,
+    "prompt": 1557,
+    "completion": 479,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "31/32",
+    "unit_keep": "2/2",
+    "marker_keep": "1/1",
+    "avg_len_ratio": 0.32,
+    "empty": 0,
+    "sample": "▪如果EPU运行灯亮，检查ELEC SYS警戒灯："
+   },
+   {
+    "label": "C flash:think_off",
+    "elapsed": 2.8,
+    "prompt": 1631,
+    "completion": 546,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "27/32",
+    "unit_keep": "0/0",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.35,
+    "empty": 0,
+    "sample": "起落架手柄中的红灯（棒棒糖灯）也被视为警告灯。它表示起落架存在不一致，或者起落架舱门未与手柄指令的位置对齐，除非起落架当前正在收放过程中。"
+   },
+   {
+    "label": "C flash:think_off",
+    "elapsed": 2.3,
+    "prompt": 1487,
+    "completion": 485,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "28/45",
+    "unit_keep": "1/1",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.42,
+    "empty": 0,
+    "sample": "“警告 – 警告”消息会在任何警告灯亮起 1.5 秒后自动激活。"
+   }
+  ],
+  "avg_elapsed": 2.7,
+  "tot_completion": 2017,
+  "tot_reasoning": 0,
+  "tot_prompt": 6272
+ },
+ {
+  "label": "D pro:default",
+  "model": "deepseek-v4-pro",
+  "extra": {},
+  "runs": [
+   {
+    "label": "D pro:default",
+    "elapsed": 89.3,
+    "prompt": 1673,
+    "completion": 7938,
+    "reasoning": 7307,
+    "complete": "12/12",
+    "acronym_keep": "14/18",
+    "unit_keep": "3/3",
+    "marker_keep": "1/1",
+    "avg_len_ratio": 0.34,
+    "empty": 0,
+    "sample": "主警戒灯（MASTER CAUTION）在警戒面板上的任何单个指示灯亮起后不久会点亮（IFF 除外）。它不会与警告灯同时点亮。"
+   },
+   {
+    "label": "D pro:default",
+    "elapsed": 17.3,
+    "prompt": 1633,
+    "completion": 1841,
+    "reasoning": 1220,
+    "complete": "12/12",
+    "acronym_keep": "28/32",
+    "unit_keep": "2/2",
+    "marker_keep": "1/1",
+    "avg_len_ratio": 0.39,
+    "empty": 0,
+    "sample": "▪如果应急动力装置（EPU）运行灯亮起，检查电气系统（ELEC SYS）警戒灯："
+   },
+   {
+    "label": "D pro:default",
+    "elapsed": 65.2,
+    "prompt": 1707,
+    "completion": 6043,
+    "reasoning": 5332,
+    "complete": "12/12",
+    "acronym_keep": "32/32",
+    "unit_keep": "0/0",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.39,
+    "empty": 0,
+    "sample": "起落架手柄（lollipop）中的红色指示灯也被视为警告灯。它表示起落架或起落架舱门与手柄所指令的位置不一致，除非起落架当前正在收放过程中。"
+   },
+   {
+    "label": "D pro:default",
+    "elapsed": 91.9,
+    "prompt": 1563,
+    "completion": 7395,
+    "reasoning": 6885,
+    "complete": "12/12",
+    "acronym_keep": "26/45",
+    "unit_keep": "1/1",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.45,
+    "empty": 0,
+    "sample": "“警告 – 警告”语音消息在任一警告灯亮起后 1.5 秒自动激活。"
+   }
+  ],
+  "avg_elapsed": 65.9,
+  "tot_completion": 23217,
+  "tot_reasoning": 20744,
+  "tot_prompt": 6576
+ },
+ {
+  "label": "E pro:effort_none",
+  "model": "deepseek-v4-pro",
+  "extra": {
+   "reasoning_effort": "none"
+  },
+  "runs": [
+   {
+    "label": "E pro:effort_none",
+    "elapsed": 6.8,
+    "prompt": 1594,
+    "completion": 598,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "14/18",
+    "unit_keep": "3/3",
+    "marker_keep": "1/1",
+    "avg_len_ratio": 0.32,
+    "empty": 0,
+    "sample": "主警戒灯（MASTER CAUTION）在警戒面板上任何单个灯点亮后不久激活（IFF除外）。它不会与警告灯同时激活。"
+   },
+   {
+    "label": "E pro:effort_none",
+    "elapsed": 6.6,
+    "prompt": 1554,
+    "completion": 577,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "32/32",
+    "unit_keep": "2/2",
+    "marker_keep": "1/1",
+    "avg_len_ratio": 0.35,
+    "empty": 0,
+    "sample": "▪ 如果 EPU 运行灯亮，检查 ELEC SYS 警戒灯："
+   },
+   {
+    "label": "E pro:effort_none",
+    "elapsed": 6.6,
+    "prompt": 1628,
+    "completion": 640,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "28/32",
+    "unit_keep": "0/0",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.33,
+    "empty": 0,
+    "sample": "起落架手柄中的红灯（棒棒糖）也被视为警告灯。它表示起落架或起落架舱门与手柄指令位置不一致，除非起落架正在收放过程中。"
+   },
+   {
+    "label": "E pro:effort_none",
+    "elapsed": 5.6,
+    "prompt": 1484,
+    "completion": 523,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "24/45",
+    "unit_keep": "1/1",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.38,
+    "empty": 0,
+    "sample": "“警告—警告”语音在任一警告灯亮起1.5秒后自动激活。"
+   }
+  ],
+  "avg_elapsed": 6.4,
+  "tot_completion": 2338,
+  "tot_reasoning": 0,
+  "tot_prompt": 6260
+ },
+ {
+  "label": "F pro:think_off",
+  "model": "deepseek-v4-pro",
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "runs": [
+   {
+    "label": "F pro:think_off",
+    "elapsed": 6.8,
+    "prompt": 1594,
+    "completion": 614,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "11/18",
+    "unit_keep": "3/3",
+    "marker_keep": "1/1",
+    "avg_len_ratio": 0.33,
+    "empty": 0,
+    "sample": "当警戒面板上的任一单独警戒灯亮起后不久（IFF 除外），主警戒灯（MASTER CAUTION）会亮起。它不会与警告灯同时亮起。"
+   },
+   {
+    "label": "F pro:think_off",
+    "elapsed": 7.1,
+    "prompt": 1554,
+    "completion": 638,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "31/32",
+    "unit_keep": "2/2",
+    "marker_keep": "0/1",
+    "avg_len_ratio": 0.41,
+    "empty": 0,
+    "sample": "如果应急动力装置（EPU）运行灯亮，检查电气系统（ELEC SYS）警戒灯："
+   },
+   {
+    "label": "F pro:think_off",
+    "elapsed": 7.2,
+    "prompt": 1628,
+    "completion": 666,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "28/32",
+    "unit_keep": "0/0",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.35,
+    "empty": 0,
+    "sample": "起落架手柄中的红灯（棒棒糖灯）也被视为警告灯。它表示起落架或起落架舱门未与手柄指令的位置一致，除非起落架正在收放过程中。"
+   },
+   {
+    "label": "F pro:think_off",
+    "elapsed": 6.3,
+    "prompt": 1484,
+    "completion": 535,
+    "reasoning": null,
+    "complete": "12/12",
+    "acronym_keep": "26/45",
+    "unit_keep": "1/1",
+    "marker_keep": "0/0",
+    "avg_len_ratio": 0.4,
+    "empty": 0,
+    "sample": "任何警告灯亮起后1.5秒，“警告—警告”信息自动激活。"
+   }
+  ],
+  "avg_elapsed": 6.8,
+  "tot_completion": 2453,
+  "tot_reasoning": 0,
+  "tot_prompt": 6260
+ }
+]

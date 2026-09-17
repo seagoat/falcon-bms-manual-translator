@@ -1,0 +1,2451 @@
+{
+ "documents": [
+  {
+   "doc_id": 1,
+   "slug": "bms-training-manual",
+   "title": "BMS Training Manual (mock)",
+   "current_version_id": 2,
+   "version_count": 2,
+   "page_count": 3,
+   "stats": {
+    "segments": 18,
+    "chars": 1310,
+    "pages": 3,
+    "translated": 17
+   }
+  }
+ ],
+ "versions": {
+  "1": [
+   {
+    "version_id": 1,
+    "version_no": 1,
+    "label": "v1",
+    "release_label": "4.38.0",
+    "doc_date": "2024-01-10",
+    "page_count": 3,
+    "is_current": 0,
+    "note": "mock baseline"
+   },
+   {
+    "version_id": 2,
+    "version_no": 2,
+    "label": "v2",
+    "release_label": "4.38.1",
+    "doc_date": "2025-03-02",
+    "page_count": 3,
+    "is_current": 1,
+    "note": "mock update"
+   }
+  ]
+ },
+ "segments": {
+  "2": [
+   {
+    "seg_id": 101,
+    "page": 1,
+    "order_index": 1,
+    "kind": "header",
+    "bbox": [
+     72,
+     38.8,
+     168.01,
+     48.25
+    ],
+    "line_boxes": [
+     [
+      72,
+      38.8,
+      168.01,
+      48.25
+     ]
+    ],
+    "text": "TO 1F-16CMAM-1 BMS",
+    "role": "header",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 9,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "TO 1F-16CMAM-1 BMS",
+     "status": "carried",
+     "revision": 0
+    }
+   },
+   {
+    "seg_id": 102,
+    "page": 1,
+    "order_index": 2,
+    "kind": "heading",
+    "bbox": [
+     72,
+     93.6,
+     279.31,
+     107.25
+    ],
+    "line_boxes": [
+     [
+      72,
+      93.6,
+      279.31,
+      107.25
+     ]
+    ],
+    "text": "CHAPTER 1  AIRCRAFT GENERAL",
+    "role": "body",
+    "style": {
+     "bold": true,
+     "italic": false,
+     "size": 13,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "第 1 章  飞机概述",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 103,
+    "page": 1,
+    "order_index": 3,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     132.0,
+     522.68,
+     167.3
+    ],
+    "line_boxes": [
+     [
+      72,
+      132.0,
+      489.92,
+      142.5
+     ],
+     [
+      72,
+      144.4,
+      522.68,
+      154.9
+     ],
+     [
+      72,
+      156.8,
+      251.52,
+      167.3
+     ]
+    ],
+    "text": "The F-16 is a single-engine, multirole fighter aircraft. The flight control system is a full-authority fly-by-wire system with no mechanical backup. It provides artificial stability and limits the aircraft within its structural and aerodynamic envelope.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "F-16 是单发多用途战斗机。飞控系统为全权限电传操纵系统，无机械备份。它提供人工稳定性，并将飞机限制在结构和气动包线之内。",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 104,
+    "page": 1,
+    "order_index": 4,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     207.0,
+     522.74,
+     229.9
+    ],
+    "line_boxes": [
+     [
+      72,
+      207.0,
+      522.74,
+      217.5
+     ],
+     [
+      72,
+      219.4,
+      447.74,
+      229.9
+     ]
+    ],
+    "text": "The pilot controls the aircraft through the sidestick controller and rudder pedals. The FLCS commands the horizontal stabilators, flaperons and rudder to achieve the commanded response.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "飞行员通过侧杆控制器和脚舵操纵飞机。FLCS 指令控制平尾、襟副翼和方向舵，以实现所指令的响应。",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 105,
+    "page": 1,
+    "order_index": 5,
+    "kind": "page_num",
+    "bbox": [
+     290,
+     798.8,
+     303.0,
+     808.25
+    ],
+    "line_boxes": [
+     [
+      290,
+      798.8,
+      303.0,
+      808.25
+     ]
+    ],
+    "text": "1-1",
+    "role": "footer",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 9,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "1-1",
+     "status": "carried",
+     "revision": 0
+    }
+   },
+   {
+    "seg_id": 201,
+    "page": 2,
+    "order_index": 6,
+    "kind": "heading",
+    "bbox": [
+     72,
+     93.6,
+     264.15,
+     107.25
+    ],
+    "line_boxes": [
+     [
+      72,
+      93.6,
+      264.15,
+      107.25
+     ]
+    ],
+    "text": "1.2  FLIGHT CONTROL SYSTEM",
+    "role": "body",
+    "style": {
+     "bold": true,
+     "italic": false,
+     "size": 13,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "1.2  飞控系统",
+     "status": "reviewed",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 202,
+    "page": 2,
+    "order_index": 7,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     132.0,
+     511.63,
+     154.9
+    ],
+    "line_boxes": [
+     [
+      72,
+      132.0,
+      511.63,
+      142.5
+     ],
+     [
+      72,
+      144.4,
+      408.28,
+      154.9
+     ]
+    ],
+    "text": "The FLCS is a four-channel digital system. Each channel processes the same inputs and compares its output with the other channels before the actuator commands are issued.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "FLCS 为四余度数字系统。每个通道处理相同的输入，并在发出作动器指令之前将其输出与其他通道进行比较。",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 203,
+    "page": 2,
+    "order_index": 8,
+    "kind": "list_item",
+    "bbox": [
+     90,
+     188.0,
+     304.12,
+     198.5
+    ],
+    "line_boxes": [
+     [
+      90,
+      188.0,
+      304.12,
+      198.5
+     ]
+    ],
+    "text": "• Sidestick controller — pitch and roll commands",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 1,
+     "indent": 0
+    },
+    "translation": {
+     "text": "• 侧杆控制器 — 俯仰和滚转指令",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 204,
+    "page": 2,
+    "order_index": 9,
+    "kind": "list_item",
+    "bbox": [
+     90,
+     204.0,
+     246.33,
+     214.5
+    ],
+    "line_boxes": [
+     [
+      90,
+      204.0,
+      246.33,
+      214.5
+     ]
+    ],
+    "text": "• Rudder pedals — yaw commands",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 1,
+     "indent": 0
+    },
+    "translation": {
+     "text": "• 脚舵 — 偏航指令",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 205,
+    "page": 2,
+    "order_index": 10,
+    "kind": "list_item",
+    "bbox": [
+     90,
+     220.0,
+     316.94,
+     230.5
+    ],
+    "line_boxes": [
+     [
+      90,
+      220.0,
+      316.94,
+      230.5
+     ]
+    ],
+    "text": "• Throttle — engine thrust and afterburner selection",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 1,
+     "indent": 0
+    },
+    "translation": {
+     "text": "• 油门 — 发动机推力和加力选择",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 206,
+    "page": 2,
+    "order_index": 11,
+    "kind": "table_cell",
+    "bbox": [
+     110,
+     264.0,
+     202.8,
+     274.5
+    ],
+    "line_boxes": [
+     [
+      110,
+      264.0,
+      202.8,
+      274.5
+     ]
+    ],
+    "text": "FLCS  BIT  —  NO GO",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "FLCS BIT — 不工作",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 207,
+    "page": 2,
+    "order_index": 12,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     312.0,
+     413.84,
+     322.5
+    ],
+    "line_boxes": [
+     [
+      72,
+      312.0,
+      413.84,
+      322.5
+     ]
+    ],
+    "text": "The OBOGS provides breathing oxygen to the pilot during all phases of flight.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "OBOGS 在飞行的所有阶段为飞行员提供呼吸用氧。",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 208,
+    "page": 2,
+    "order_index": 13,
+    "kind": "page_num",
+    "bbox": [
+     290,
+     798.8,
+     303.0,
+     808.25
+    ],
+    "line_boxes": [
+     [
+      290,
+      798.8,
+      303.0,
+      808.25
+     ]
+    ],
+    "text": "1-2",
+    "role": "footer",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 9,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "1-2",
+     "status": "carried",
+     "revision": 0
+    }
+   },
+   {
+    "seg_id": 301,
+    "page": 3,
+    "order_index": 14,
+    "kind": "heading",
+    "bbox": [
+     72,
+     93.6,
+     268.49,
+     107.25
+    ],
+    "line_boxes": [
+     [
+      72,
+      93.6,
+      268.49,
+      107.25
+     ]
+    ],
+    "text": "1.3  ENGINE AND FUEL SYSTEM",
+    "role": "body",
+    "style": {
+     "bold": true,
+     "italic": false,
+     "size": 13,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "1.3  发动机和燃油系统",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 302,
+    "page": 3,
+    "order_index": 15,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     132.0,
+     511.65,
+     154.9
+    ],
+    "line_boxes": [
+     [
+      72,
+      132.0,
+      511.65,
+      142.5
+     ],
+     [
+      72,
+      144.4,
+      461.05,
+      154.9
+     ]
+    ],
+    "text": "The engine is controlled by the digital engine control unit, which schedules fuel flow, nozzle position and afterburner operation. The EPU provides emergency electrical and hydraulic power.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "发动机由数字发动机控制单元控制，该单元安排燃油流量、喷口位置和加力工作。EPU 提供应急电源和液压动力。",
+     "status": "seeded",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 303,
+    "page": 3,
+    "order_index": 16,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     207.0,
+     496.66,
+     229.9
+    ],
+    "line_boxes": [
+     [
+      72,
+      207.0,
+      496.66,
+      217.5
+     ],
+     [
+      72,
+      219.4,
+      132.03,
+      229.9
+     ]
+    ],
+    "text": "The fuel system stores JP-8 in the fuselage and wing tanks and supplies the engine through two boost pumps.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "燃油系统在机身和机翼油箱中储存 JP-8，并通过两台增压泵向发动机供油。",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 304,
+    "page": 3,
+    "order_index": 17,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     260.0,
+     389.38,
+     270.5
+    ],
+    "line_boxes": [
+     [
+      72,
+      260.0,
+      389.38,
+      270.5
+     ]
+    ],
+    "text": "Fuel quantity is displayed on the fuel quantity indicator and on the MFD.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": null
+   },
+   {
+    "seg_id": 305,
+    "page": 3,
+    "order_index": 18,
+    "kind": "page_num",
+    "bbox": [
+     290,
+     798.8,
+     303.0,
+     808.25
+    ],
+    "line_boxes": [
+     [
+      290,
+      798.8,
+      303.0,
+      808.25
+     ]
+    ],
+    "text": "1-3",
+    "role": "footer",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 9,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "1-3",
+     "status": "carried",
+     "revision": 0
+    }
+   }
+  ],
+  "1": [
+   {
+    "seg_id": 101,
+    "page": 1,
+    "order_index": 1,
+    "kind": "header",
+    "bbox": [
+     72,
+     38.8,
+     168.01,
+     48.25
+    ],
+    "line_boxes": [
+     [
+      72,
+      38.8,
+      168.01,
+      48.25
+     ]
+    ],
+    "text": "TO 1F-16CMAM-1 BMS",
+    "role": "header",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 9,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "TO 1F-16CMAM-1 BMS",
+     "status": "carried",
+     "revision": 0
+    }
+   },
+   {
+    "seg_id": 102,
+    "page": 1,
+    "order_index": 2,
+    "kind": "heading",
+    "bbox": [
+     72,
+     93.6,
+     279.31,
+     107.25
+    ],
+    "line_boxes": [
+     [
+      72,
+      93.6,
+      279.31,
+      107.25
+     ]
+    ],
+    "text": "CHAPTER 1  AIRCRAFT GENERAL",
+    "role": "body",
+    "style": {
+     "bold": true,
+     "italic": false,
+     "size": 13,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "第 1 章  飞机概述",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 103,
+    "page": 1,
+    "order_index": 3,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     132.0,
+     522.68,
+     167.3
+    ],
+    "line_boxes": [
+     [
+      72,
+      132.0,
+      489.92,
+      142.5
+     ],
+     [
+      72,
+      144.4,
+      522.68,
+      154.9
+     ],
+     [
+      72,
+      156.8,
+      251.52,
+      167.3
+     ]
+    ],
+    "text": "The F-16 is a single-engine, multirole fighter aircraft. The flight control system is a full-authority fly-by-wire system with no mechanical backup. It provides artificial stability and limits the aircraft within its structural and aerodynamic envelope.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "F-16 是单发多用途战斗机。飞控系统为全权限电传操纵系统，无机械备份。它提供人工稳定性，并将飞机限制在结构和气动包线之内。",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 104,
+    "page": 1,
+    "order_index": 4,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     207.0,
+     522.74,
+     229.9
+    ],
+    "line_boxes": [
+     [
+      72,
+      207.0,
+      522.74,
+      217.5
+     ],
+     [
+      72,
+      219.4,
+      447.74,
+      229.9
+     ]
+    ],
+    "text": "The pilot controls the aircraft through the sidestick controller and rudder pedals. The FLCS commands the horizontal stabilators, flaperons and rudder to achieve the commanded response.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "飞行员通过侧杆控制器和脚舵操纵飞机。FLCS 指令控制平尾、襟副翼和方向舵，以实现所指令的响应。",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 105,
+    "page": 1,
+    "order_index": 5,
+    "kind": "page_num",
+    "bbox": [
+     290,
+     798.8,
+     303.0,
+     808.25
+    ],
+    "line_boxes": [
+     [
+      290,
+      798.8,
+      303.0,
+      808.25
+     ]
+    ],
+    "text": "1-1",
+    "role": "footer",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 9,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "1-1",
+     "status": "carried",
+     "revision": 0
+    }
+   },
+   {
+    "seg_id": 207,
+    "page": 1,
+    "order_index": 12,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     312.0,
+     413.84,
+     322.5
+    ],
+    "line_boxes": [
+     [
+      72,
+      312.0,
+      413.84,
+      322.5
+     ]
+    ],
+    "text": "The OBOGS provides breathing oxygen to the pilot during all phases of flight.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "OBOGS 在飞行的所有阶段为飞行员提供呼吸用氧。",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 201,
+    "page": 2,
+    "order_index": 6,
+    "kind": "heading",
+    "bbox": [
+     72,
+     93.6,
+     264.15,
+     107.25
+    ],
+    "line_boxes": [
+     [
+      72,
+      93.6,
+      264.15,
+      107.25
+     ]
+    ],
+    "text": "1.2  FLIGHT CONTROL SYSTEM",
+    "role": "body",
+    "style": {
+     "bold": true,
+     "italic": false,
+     "size": 13,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "1.2  飞控系统",
+     "status": "reviewed",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 202,
+    "page": 2,
+    "order_index": 7,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     132.0,
+     511.63,
+     154.9
+    ],
+    "line_boxes": [
+     [
+      72,
+      132.0,
+      511.63,
+      142.5
+     ],
+     [
+      72,
+      144.4,
+      408.28,
+      154.9
+     ]
+    ],
+    "text": "The FLCS is a four-channel digital system. Each channel processes the same inputs and compares its output with the other channels before the actuator commands are issued.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "FLCS 为四余度数字系统。每个通道处理相同的输入，并在发出作动器指令之前将其输出与其他通道进行比较。",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 203,
+    "page": 2,
+    "order_index": 8,
+    "kind": "list_item",
+    "bbox": [
+     90,
+     188.0,
+     304.12,
+     198.5
+    ],
+    "line_boxes": [
+     [
+      90,
+      188.0,
+      304.12,
+      198.5
+     ]
+    ],
+    "text": "• Sidestick controller — pitch and roll commands",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 1,
+     "indent": 0
+    },
+    "translation": {
+     "text": "• 侧杆控制器 — 俯仰和滚转指令",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 209,
+    "page": 2,
+    "order_index": 9,
+    "kind": "paragraph",
+    "bbox": [
+     72.0,
+     360.0,
+     351.0,
+     370.5
+    ],
+    "line_boxes": [
+     [
+      72.0,
+      360.0,
+      351.0,
+      370.5
+     ]
+    ],
+    "text": "The emergency power unit is armed automatically after takeoff.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "应急动力装置在起飞后自动预位。",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 204,
+    "page": 2,
+    "order_index": 10,
+    "kind": "list_item",
+    "bbox": [
+     90,
+     204.0,
+     246.33,
+     214.5
+    ],
+    "line_boxes": [
+     [
+      90,
+      204.0,
+      246.33,
+      214.5
+     ]
+    ],
+    "text": "• Rudder pedals — yaw commands",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 1,
+     "indent": 0
+    },
+    "translation": {
+     "text": "• 脚舵 — 偏航指令",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 205,
+    "page": 2,
+    "order_index": 11,
+    "kind": "list_item",
+    "bbox": [
+     90,
+     220.0,
+     316.94,
+     230.5
+    ],
+    "line_boxes": [
+     [
+      90,
+      220.0,
+      316.94,
+      230.5
+     ]
+    ],
+    "text": "• Throttle — engine thrust and afterburner selection",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 1,
+     "indent": 0
+    },
+    "translation": {
+     "text": "• 油门 — 发动机推力和加力选择",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 206,
+    "page": 2,
+    "order_index": 12,
+    "kind": "table_cell",
+    "bbox": [
+     110,
+     264.0,
+     202.8,
+     274.5
+    ],
+    "line_boxes": [
+     [
+      110,
+      264.0,
+      202.8,
+      274.5
+     ]
+    ],
+    "text": "FLCS  BIT  —  NO GO",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "FLCS BIT — 不工作",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 208,
+    "page": 2,
+    "order_index": 14,
+    "kind": "page_num",
+    "bbox": [
+     290,
+     798.8,
+     303.0,
+     808.25
+    ],
+    "line_boxes": [
+     [
+      290,
+      798.8,
+      303.0,
+      808.25
+     ]
+    ],
+    "text": "1-2",
+    "role": "footer",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 9,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "1-2",
+     "status": "carried",
+     "revision": 0
+    }
+   },
+   {
+    "seg_id": 301,
+    "page": 3,
+    "order_index": 14,
+    "kind": "heading",
+    "bbox": [
+     72,
+     93.6,
+     268.49,
+     107.25
+    ],
+    "line_boxes": [
+     [
+      72,
+      93.6,
+      268.49,
+      107.25
+     ]
+    ],
+    "text": "1.3  ENGINE AND FUEL SYSTEM",
+    "role": "body",
+    "style": {
+     "bold": true,
+     "italic": false,
+     "size": 13,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "1.3  发动机和燃油系统",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 302,
+    "page": 3,
+    "order_index": 15,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     132.0,
+     486.08,
+     154.9
+    ],
+    "line_boxes": [
+     [
+      72,
+      132.0,
+      486.08,
+      142.5
+     ],
+     [
+      72,
+      144.4,
+      194.82,
+      154.9
+     ]
+    ],
+    "text": "The engine is controlled by the digital engine control unit, which schedules fuel flow. The EPU provides emergency power.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "发动机由数字发动机控制单元控制，该单元安排燃油流量。EPU 提供应急电源。",
+     "status": "machine",
+     "revision": 1
+    }
+   },
+   {
+    "seg_id": 304,
+    "page": 3,
+    "order_index": 17,
+    "kind": "paragraph",
+    "bbox": [
+     72,
+     260.0,
+     389.38,
+     270.5
+    ],
+    "line_boxes": [
+     [
+      72,
+      260.0,
+      389.38,
+      270.5
+     ]
+    ],
+    "text": "Fuel quantity is displayed on the fuel quantity indicator and on the MFD.",
+    "role": "body",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 10,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": null
+   },
+   {
+    "seg_id": 305,
+    "page": 3,
+    "order_index": 18,
+    "kind": "page_num",
+    "bbox": [
+     290,
+     798.8,
+     303.0,
+     808.25
+    ],
+    "line_boxes": [
+     [
+      290,
+      798.8,
+      303.0,
+      808.25
+     ]
+    ],
+    "text": "1-3",
+    "role": "footer",
+    "style": {
+     "bold": false,
+     "italic": false,
+     "size": 9,
+     "color": 1710618,
+     "align": "left",
+     "list_level": 0,
+     "indent": 0
+    },
+    "translation": {
+     "text": "1-3",
+     "status": "carried",
+     "revision": 0
+    }
+   }
+  ]
+ },
+ "markers": {
+  "2:1": {
+   "page": 1,
+   "width": 595.28,
+   "height": 841.89,
+   "dpi": 110,
+   "units_per_px": 0.654545,
+   "items": [
+    {
+     "seg_id": 101,
+     "kind": "header",
+     "kind_group": "structural",
+     "bbox": [
+      72,
+      38.8,
+      168.01,
+      48.25
+     ],
+     "line_boxes": [
+      [
+       72,
+       38.8,
+       168.01,
+       48.25
+      ]
+     ],
+     "role": "header",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 102,
+     "kind": "heading",
+     "kind_group": "structural",
+     "bbox": [
+      72,
+      93.6,
+      279.31,
+      107.25
+     ],
+     "line_boxes": [
+      [
+       72,
+       93.6,
+       279.31,
+       107.25
+      ]
+     ],
+     "role": "body",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 103,
+     "kind": "paragraph",
+     "kind_group": "text",
+     "bbox": [
+      72,
+      132.0,
+      522.68,
+      167.3
+     ],
+     "line_boxes": [
+      [
+       72,
+       132.0,
+       489.92,
+       142.5
+      ],
+      [
+       72,
+       144.4,
+       522.68,
+       154.9
+      ],
+      [
+       72,
+       156.8,
+       251.52,
+       167.3
+      ]
+     ],
+     "role": "body",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 104,
+     "kind": "paragraph",
+     "kind_group": "text",
+     "bbox": [
+      72,
+      207.0,
+      522.74,
+      229.9
+     ],
+     "line_boxes": [
+      [
+       72,
+       207.0,
+       522.74,
+       217.5
+      ],
+      [
+       72,
+       219.4,
+       447.74,
+       229.9
+      ]
+     ],
+     "role": "body",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 105,
+     "kind": "page_num",
+     "kind_group": "structural",
+     "bbox": [
+      290,
+      798.8,
+      303.0,
+      808.25
+     ],
+     "line_boxes": [
+      [
+       290,
+       798.8,
+       303.0,
+       808.25
+      ]
+     ],
+     "role": "footer",
+     "change_kind": null,
+     "change_id": null
+    }
+   ],
+   "crop_box": [
+    0.0,
+    0.0,
+    595.28,
+    841.89
+   ]
+  },
+  "2:2": {
+   "page": 2,
+   "width": 595.28,
+   "height": 841.89,
+   "dpi": 110,
+   "units_per_px": 0.654545,
+   "items": [
+    {
+     "seg_id": 201,
+     "kind": "heading",
+     "kind_group": "structural",
+     "bbox": [
+      72,
+      93.6,
+      264.15,
+      107.25
+     ],
+     "line_boxes": [
+      [
+       72,
+       93.6,
+       264.15,
+       107.25
+      ]
+     ],
+     "role": "body",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 202,
+     "kind": "paragraph",
+     "kind_group": "text",
+     "bbox": [
+      72,
+      132.0,
+      511.63,
+      154.9
+     ],
+     "line_boxes": [
+      [
+       72,
+       132.0,
+       511.63,
+       142.5
+      ],
+      [
+       72,
+       144.4,
+       408.28,
+       154.9
+      ]
+     ],
+     "role": "body",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 203,
+     "kind": "list_item",
+     "kind_group": "text",
+     "bbox": [
+      90,
+      188.0,
+      304.12,
+      198.5
+     ],
+     "line_boxes": [
+      [
+       90,
+       188.0,
+       304.12,
+       198.5
+      ]
+     ],
+     "role": "body",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 204,
+     "kind": "list_item",
+     "kind_group": "text",
+     "bbox": [
+      90,
+      204.0,
+      246.33,
+      214.5
+     ],
+     "line_boxes": [
+      [
+       90,
+       204.0,
+       246.33,
+       214.5
+      ]
+     ],
+     "role": "body",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 205,
+     "kind": "list_item",
+     "kind_group": "text",
+     "bbox": [
+      90,
+      220.0,
+      316.94,
+      230.5
+     ],
+     "line_boxes": [
+      [
+       90,
+       220.0,
+       316.94,
+       230.5
+      ]
+     ],
+     "role": "body",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 206,
+     "kind": "table_cell",
+     "kind_group": "text",
+     "bbox": [
+      110,
+      264.0,
+      202.8,
+      274.5
+     ],
+     "line_boxes": [
+      [
+       110,
+       264.0,
+       202.8,
+       274.5
+      ]
+     ],
+     "role": "body",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 207,
+     "kind": "paragraph",
+     "kind_group": "text",
+     "bbox": [
+      72,
+      312.0,
+      413.84,
+      322.5
+     ],
+     "line_boxes": [
+      [
+       72,
+       312.0,
+       413.84,
+       322.5
+      ]
+     ],
+     "role": "body",
+     "change_kind": "moved",
+     "change_id": 4
+    },
+    {
+     "seg_id": 208,
+     "kind": "page_num",
+     "kind_group": "structural",
+     "bbox": [
+      290,
+      798.8,
+      303.0,
+      808.25
+     ],
+     "line_boxes": [
+      [
+       290,
+       798.8,
+       303.0,
+       808.25
+      ]
+     ],
+     "role": "footer",
+     "change_kind": null,
+     "change_id": null
+    }
+   ],
+   "crop_box": [
+    0.0,
+    0.0,
+    595.28,
+    841.89
+   ]
+  },
+  "2:3": {
+   "page": 3,
+   "width": 595.28,
+   "height": 841.89,
+   "dpi": 110,
+   "units_per_px": 0.654545,
+   "items": [
+    {
+     "seg_id": 301,
+     "kind": "heading",
+     "kind_group": "structural",
+     "bbox": [
+      72,
+      93.6,
+      268.49,
+      107.25
+     ],
+     "line_boxes": [
+      [
+       72,
+       93.6,
+       268.49,
+       107.25
+      ]
+     ],
+     "role": "body",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 302,
+     "kind": "paragraph",
+     "kind_group": "text",
+     "bbox": [
+      72,
+      132.0,
+      511.65,
+      154.9
+     ],
+     "line_boxes": [
+      [
+       72,
+       132.0,
+       511.65,
+       142.5
+      ],
+      [
+       72,
+       144.4,
+       461.05,
+       154.9
+      ]
+     ],
+     "role": "body",
+     "change_kind": "modified",
+     "change_id": 2
+    },
+    {
+     "seg_id": 303,
+     "kind": "paragraph",
+     "kind_group": "text",
+     "bbox": [
+      72,
+      207.0,
+      496.66,
+      229.9
+     ],
+     "line_boxes": [
+      [
+       72,
+       207.0,
+       496.66,
+       217.5
+      ],
+      [
+       72,
+       219.4,
+       132.03,
+       229.9
+      ]
+     ],
+     "role": "body",
+     "change_kind": "added",
+     "change_id": 3
+    },
+    {
+     "seg_id": 304,
+     "kind": "paragraph",
+     "kind_group": "text",
+     "bbox": [
+      72,
+      260.0,
+      389.38,
+      270.5
+     ],
+     "line_boxes": [
+      [
+       72,
+       260.0,
+       389.38,
+       270.5
+      ]
+     ],
+     "role": "body",
+     "change_kind": null,
+     "change_id": null
+    },
+    {
+     "seg_id": 305,
+     "kind": "page_num",
+     "kind_group": "structural",
+     "bbox": [
+      290,
+      798.8,
+      303.0,
+      808.25
+     ],
+     "line_boxes": [
+      [
+       290,
+       798.8,
+       303.0,
+       808.25
+      ]
+     ],
+     "role": "footer",
+     "change_kind": null,
+     "change_id": null
+    }
+   ],
+   "crop_box": [
+    0.0,
+    0.0,
+    595.28,
+    841.89
+   ]
+  }
+ },
+ "layout": {
+  "2:1": {
+   "page": 1,
+   "width": 595.28,
+   "height": 841.89,
+   "font_file": "C:/Windows/Fonts/Deng.ttf",
+   "boxes": [
+    {
+     "seg_id": 102,
+     "bbox": [
+      72,
+      93.6,
+      279.31,
+      107.25
+     ],
+     "paragraph_rect": [
+      72,
+      93.6,
+      279.31,
+      107.25
+     ],
+     "lines": [
+      {
+       "text": "第 1 章  飞机概述",
+       "x": 72,
+       "y": 104.0,
+       "size": 11.96,
+       "font_slot": "cjk",
+       "width": 91.17
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    },
+    {
+     "seg_id": 103,
+     "bbox": [
+      72,
+      132.0,
+      522.68,
+      167.3
+     ],
+     "paragraph_rect": [
+      72,
+      132.0,
+      522.68,
+      167.3
+     ],
+     "lines": [
+      {
+       "text": "F-16 是单发多用途战斗机。飞控系统为全权限电传操纵系统，无机械备份。它提供人工稳定性，并将飞机限制",
+       "x": 72,
+       "y": 140.0,
+       "size": 9.2,
+       "font_slot": "cjk",
+       "width": 444.4
+      },
+      {
+       "text": "在结构和气动包线之内。",
+       "x": 72,
+       "y": 151.41,
+       "size": 9.2,
+       "font_slot": "cjk",
+       "width": 101.2
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    },
+    {
+     "seg_id": 104,
+     "bbox": [
+      72,
+      207.0,
+      522.74,
+      229.9
+     ],
+     "paragraph_rect": [
+      72,
+      207.0,
+      522.74,
+      229.9
+     ],
+     "lines": [
+      {
+       "text": "飞行员通过侧杆控制器和脚舵操纵飞机。FLCS 指令控制平尾、襟副翼和方向舵，以实现所指令的响应。",
+       "x": 72,
+       "y": 215.0,
+       "size": 9.2,
+       "font_slot": "cjk",
+       "width": 417.21
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    }
+   ]
+  },
+  "2:2": {
+   "page": 2,
+   "width": 595.28,
+   "height": 841.89,
+   "font_file": "C:/Windows/Fonts/Deng.ttf",
+   "boxes": [
+    {
+     "seg_id": 201,
+     "bbox": [
+      72,
+      93.6,
+      264.15,
+      107.25
+     ],
+     "paragraph_rect": [
+      72,
+      93.6,
+      264.15,
+      107.25
+     ],
+     "lines": [
+      {
+       "text": "1.2  飞控系统",
+       "x": 72,
+       "y": 104.0,
+       "size": 11.96,
+       "font_slot": "cjk",
+       "width": 69.62
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    },
+    {
+     "seg_id": 202,
+     "bbox": [
+      72,
+      132.0,
+      511.63,
+      154.9
+     ],
+     "paragraph_rect": [
+      72,
+      132.0,
+      511.63,
+      154.9
+     ],
+     "lines": [
+      {
+       "text": "FLCS 为四余度数字系统。每个通道处理相同的输入，并在发出作动器指令之前将其输出与其他通道进行比较。",
+       "x": 72,
+       "y": 140.0,
+       "size": 9.2,
+       "font_slot": "cjk",
+       "width": 444.81
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    },
+    {
+     "seg_id": 203,
+     "bbox": [
+      90,
+      188.0,
+      304.12,
+      198.5
+     ],
+     "paragraph_rect": [
+      90,
+      188.0,
+      304.12,
+      198.5
+     ],
+     "lines": [
+      {
+       "text": "• 侧杆控制器 — 俯仰和滚转指令",
+       "x": 90,
+       "y": 196.0,
+       "size": 9.2,
+       "font_slot": "cjk",
+       "width": 130.85
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    },
+    {
+     "seg_id": 204,
+     "bbox": [
+      90,
+      204.0,
+      246.33,
+      214.5
+     ],
+     "paragraph_rect": [
+      90,
+      204.0,
+      246.33,
+      214.5
+     ],
+     "lines": [
+      {
+       "text": "• 脚舵 — 偏航指令",
+       "x": 90,
+       "y": 212.0,
+       "size": 9.2,
+       "font_slot": "cjk",
+       "width": 75.65
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    },
+    {
+     "seg_id": 205,
+     "bbox": [
+      90,
+      220.0,
+      316.94,
+      230.5
+     ],
+     "paragraph_rect": [
+      90,
+      220.0,
+      316.94,
+      230.5
+     ],
+     "lines": [
+      {
+       "text": "• 油门 — 发动机推力和加力选择",
+       "x": 90,
+       "y": 228.0,
+       "size": 9.2,
+       "font_slot": "cjk",
+       "width": 130.85
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    },
+    {
+     "seg_id": 206,
+     "bbox": [
+      110,
+      264.0,
+      202.8,
+      274.5
+     ],
+     "paragraph_rect": [
+      110,
+      264.0,
+      202.8,
+      274.5
+     ],
+     "lines": [
+      {
+       "text": "FLCS BIT — 不工作",
+       "x": 110,
+       "y": 272.0,
+       "size": 9.2,
+       "font_slot": "cjk",
+       "width": 75.63
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    },
+    {
+     "seg_id": 207,
+     "bbox": [
+      72,
+      312.0,
+      413.84,
+      322.5
+     ],
+     "paragraph_rect": [
+      72,
+      312.0,
+      413.84,
+      322.5
+     ],
+     "lines": [
+      {
+       "text": "OBOGS 在飞行的所有阶段为飞行员提供呼吸用氧。",
+       "x": 72,
+       "y": 320.0,
+       "size": 9.2,
+       "font_slot": "cjk",
+       "width": 207.35
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    }
+   ]
+  },
+  "2:3": {
+   "page": 3,
+   "width": 595.28,
+   "height": 841.89,
+   "font_file": "C:/Windows/Fonts/Deng.ttf",
+   "boxes": [
+    {
+     "seg_id": 301,
+     "bbox": [
+      72,
+      93.6,
+      268.49,
+      107.25
+     ],
+     "paragraph_rect": [
+      72,
+      93.6,
+      268.49,
+      107.25
+     ],
+     "lines": [
+      {
+       "text": "1.3  发动机和燃油系统",
+       "x": 72,
+       "y": 104.0,
+       "size": 11.96,
+       "font_slot": "cjk",
+       "width": 117.46
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    },
+    {
+     "seg_id": 302,
+     "bbox": [
+      72,
+      132.0,
+      511.65,
+      154.9
+     ],
+     "paragraph_rect": [
+      72,
+      132.0,
+      511.65,
+      154.9
+     ],
+     "lines": [
+      {
+       "text": "发动机由数字发动机控制单元控制，该单元安排燃油流量、喷口位置和加力工作。EPU 提供应急电源和液压动力",
+       "x": 72,
+       "y": 140.0,
+       "size": 9.2,
+       "font_slot": "cjk",
+       "width": 450.76
+      },
+      {
+       "text": "。",
+       "x": 72,
+       "y": 151.41,
+       "size": 9.2,
+       "font_slot": "latin",
+       "width": 9.2
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    },
+    {
+     "seg_id": 303,
+     "bbox": [
+      72,
+      207.0,
+      496.66,
+      229.9
+     ],
+     "paragraph_rect": [
+      72,
+      207.0,
+      496.66,
+      229.9
+     ],
+     "lines": [
+      {
+       "text": "燃油系统在机身和机翼油箱中储存 JP-8，并通过两台增压泵向发动机供油。",
+       "x": 72,
+       "y": 215.0,
+       "size": 9.2,
+       "font_slot": "cjk",
+       "width": 305.37
+      }
+     ],
+     "color": 1710618,
+     "bg": 16777215,
+     "shrink": 0
+    }
+   ]
+  }
+ },
+ "outline": {
+  "2": [
+   {
+    "page": 1,
+    "seg_id": 102,
+    "kind": "heading",
+    "text": "CHAPTER 1  AIRCRAFT GENERAL",
+    "translation": "第 1 章  飞机概述"
+   },
+   {
+    "page": 2,
+    "seg_id": 201,
+    "kind": "heading",
+    "text": "1.2  FLIGHT CONTROL SYSTEM",
+    "translation": "1.2  飞控系统"
+   },
+   {
+    "page": 3,
+    "seg_id": 301,
+    "kind": "heading",
+    "text": "1.3  ENGINE AND FUEL SYSTEM",
+    "translation": "1.3  发动机和燃油系统"
+   }
+  ]
+ },
+ "diff": {
+  "1": {
+   "from_version_id": 1,
+   "to_version_id": 2,
+   "counts": {
+    "unchanged": 15,
+    "modified": 1,
+    "added": 1,
+    "removed": 1,
+    "moved": 1,
+    "reordered": 0,
+    "split": 0,
+    "merged": 0
+   },
+   "changes": [
+    {
+     "change_id": 2,
+     "kind": "modified",
+     "ratio": 0.62,
+     "old_page": 3,
+     "new_page": 3,
+     "old_text": "The engine is controlled by the digital engine control unit, which schedules fuel flow. The EPU provides emergency power.",
+     "new_text": "The engine is controlled by the digital engine control unit, which schedules fuel flow, nozzle position and afterburner operation. The EPU provides emergency electrical and hydraulic power.",
+     "char_diffs": null,
+     "summary": "修改 1 句，新增喷口/加力描述"
+    },
+    {
+     "change_id": 3,
+     "kind": "added",
+     "ratio": 0.0,
+     "old_page": null,
+     "new_page": 3,
+     "old_text": "",
+     "new_text": "The fuel system stores JP-8 in the fuselage and wing tanks and supplies the engine through two boost pumps.",
+     "char_diffs": null,
+     "summary": "新版新增段落"
+    },
+    {
+     "change_id": 4,
+     "kind": "moved",
+     "ratio": 1.0,
+     "old_page": 1,
+     "new_page": 2,
+     "old_text": "The OBOGS provides breathing oxygen to the pilot during all phases of flight.",
+     "new_text": "The OBOGS provides breathing oxygen to the pilot during all phases of flight.",
+     "char_diffs": null,
+     "summary": "同文移至第 1-2 页"
+    },
+    {
+     "change_id": 1,
+     "kind": "removed",
+     "ratio": 0.0,
+     "old_page": 2,
+     "new_page": null,
+     "old_text": "The emergency power unit is armed automatically after takeoff.",
+     "new_text": "",
+     "char_diffs": null,
+     "summary": "删除 1 段"
+    }
+   ]
+  }
+ },
+ "glossary": [
+  {
+   "en": "flight control system",
+   "zh": "飞控系统",
+   "case_sensitive": false,
+   "note": "FLCS"
+  },
+  {
+   "en": "canopy",
+   "zh": "座舱盖",
+   "case_sensitive": false,
+   "note": ""
+  },
+  {
+   "en": "landing gear",
+   "zh": "起落架",
+   "case_sensitive": false,
+   "note": ""
+  },
+  {
+   "en": "afterburner",
+   "zh": "加力",
+   "case_sensitive": false,
+   "note": ""
+  },
+  {
+   "en": "STPT",
+   "zh": "航路点",
+   "case_sensitive": true,
+   "note": "steerpoint"
+  },
+  {
+   "en": "MFD",
+   "zh": "多功能显示器",
+   "case_sensitive": true,
+   "note": ""
+  },
+  {
+   "en": "OBOGS",
+   "zh": "机载制氧系统",
+   "case_sensitive": true,
+   "note": ""
+  },
+  {
+   "en": "EPU",
+   "zh": "应急动力装置",
+   "case_sensitive": true,
+   "note": ""
+  }
+ ],
+ "page_images": {
+  "2": {
+   "1": {
+    "source": "./mock/pages/v2_p1_source.webp",
+    "cn": "./mock/pages/v2_p1_cn.webp"
+   },
+   "2": {
+    "source": "./mock/pages/v2_p2_source.webp",
+    "cn": "./mock/pages/v2_p2_cn.webp"
+   },
+   "3": {
+    "source": "./mock/pages/v2_p3_source.webp",
+    "cn": "./mock/pages/v2_p3_cn.webp"
+   }
+  }
+ },
+ "page_size": {
+  "2": {
+   "width": 595.28,
+   "height": 841.89,
+   "dpi": 110
+  }
+ },
+ "fonts": {
+  "cjk": "C:/Windows/Fonts/Deng.ttf",
+  "latin": "C:/Windows/Fonts/calibri.ttf"
+ }
+}

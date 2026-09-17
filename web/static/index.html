@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>对照浏览器 — 手册翻译与版本追踪</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="errorbar" class="errorbar" hidden>
+  <span class="dot"></span><span id="errorText"></span><button id="errorClose">忽略</button>
+</div>
+
+<header id="topbar">
+  <button id="tocToggle" class="icon" title="折叠/展开目录">☰</button>
+  <div class="brand">
+    <span class="logo">MT</span>
+    <span id="docTitle" class="title">加载中…</span>
+    <span id="mockTag" class="tag" hidden>MOCK</span>
+  </div>
+
+  <div class="ctl">
+    <label class="lbl">文档
+      <select id="docSel" title="选择文档"></select>
+    </label>
+    <label class="lbl">版本
+      <select id="verSel" title="选择版本"></select>
+    </label>
+    <div class="segbtns" id="modeBtns" role="tablist">
+      <button data-mode="compare" class="on" role="tab">对照</button>
+      <button data-mode="source" role="tab">仅原文</button>
+      <button data-mode="cn" role="tab">仅译文</button>
+    </div>
+    <label class="chk" title="只显示有变更的段落 (快捷键 d)">
+      <input type="checkbox" id="changesOnly"><span>只显示变更</span>
+    </label>
+    <span id="changeBadges" class="badges"></span>
+  </div>
+
+  <div class="ctl right">
+    <label class="lbl">页
+      <input id="pageInput" type="number" min="1" step="1" value="1" title="跳转页码" autocomplete="off">
+      <span id="pageCount" class="muted">/ –</span>
+    </label>
+    <label class="lbl zoom">缩放
+      <input id="zoom" type="range" min="50" max="250" step="5" value="100">
+      <span id="zoomVal" class="muted">100%</span>
+    </label>
+    <button id="translateBtn" class="primary" title="翻译当前页 (mock 或 deepseek)">翻译本页</button>
+    <button id="translateAllBtn" title="翻译整本（未翻译的段）">翻译全书</button>
+    <button id="exportCnBtn" title="导出中文重建 PDF">导出中文</button>
+    <button id="exportBiBtn" title="导出双语对照 PDF">导出双语</button>
+    <button id="glossaryBtn" title="术语表">术语表</button>
+  </div>
+
+  <div id="progress" class="progress" hidden>
+    <div class="pbar"><div id="progressBar"></div></div>
+    <span id="progressText" class="muted">0%</span>
+  </div>
+</header>
+
+<main id="main">
+  <aside id="toc">
+    <div class="toc-head">目录 <span id="tocCount" class="muted"></span></div>
+    <div id="tocList" class="toc-list"></div>
+  </aside>
+
+  <div id="panes">
+    <section class="pane" id="pane-source" data-side="source">
+      <div class="pane-head">
+        <span class="pane-title"><i class="dot src"></i>原文 <span class="en">EN</span></span>
+        <span class="hint" id="hint-source"></span>
+      </div>
+      <div class="pane-scroll" id="scroll-source"><div class="pages" id="pages-source"></div></div>
+      <div class="pane-skeleton" id="skel-source"><div class="skel-line w80"></div><div class="skel-line"></div><div class="skel-line w60"></div></div>
+    </section>
+
+    <div id="gutter" title="拖拽调整左右宽度（双击复位）"></div>
+
+    <section class="pane" id="pane-cn" data-side="cn">
+      <div class="pane-head">
+        <span class="pane-title"><i class="dot cn"></i>译文 <span class="en">中文</span></span>
+        <span class="hint" id="hint-cn"></span>
+      </div>
+      <div class="pane-scroll" id="scroll-cn"><div class="pages" id="pages-cn"></div></div>
+      <div class="pane-skeleton" id="skel-cn"><div class="skel-line w80"></div><div class="skel-line"></div><div class="skel-line w60"></div></div>
+    </section>
+  </div>
+</main>
+
+<aside id="detail" class="detail" hidden>
+  <div class="detail-head">
+    <span class="dkind" id="detailKind">—</span>
+    <span class="muted" id="detailPage"></span>
+    <button id="detailClose" class="icon" title="关闭">×</button>
+  </div>
+  <div class="detail-body">
+    <div class="badges" id="detailBadges"></div>
+
+    <div class="field">
+      <div class="flabel">原文 <span class="muted" id="detailSegId"></span></div>
+      <div id="detailSrc" class="text src"></div>
+    </div>
+
+    <div class="field">
+      <div class="flabel">译文 <span id="detailStatus" class="status"></span></div>
+      <textarea id="detailTrans" spellcheck="false" placeholder="（未翻译）"></textarea>
+    </div>
+
+    <div class="field" id="fieldDiff" hidden>
+      <div class="flabel">行内差异 <span class="muted">上一版 → 本版</span></div>
+      <div id="detailDiff" class="diff"></div>
+      <div class="difflegend muted">删除线=旧文本 · 绿底=新文本</div>
+    </div>
+
+    <div class="field">
+      <div class="flabel">版本历史</div>
+      <div id="detailHistory" class="hist muted">—</div>
+    </div>
+
+    <div class="detail-actions">
+      <button id="detailTranslate">翻译本段</button>
+      <button id="detailSave" class="primary">保存复核</button>
+    </div>
+  </div>
+</aside>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-box">
+    <div class="modal-head"><span id="modalTitle">术语表</span><button id="modalClose" class="icon">×</button></div>
+    <div class="modal-body" id="modalBody"></div>
+    <div class="modal-foot"><button id="modalClose2">关闭</button></div>
+  </div>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+# manual_trans_trace —— 运行依赖
+#
+# 目标机器（Windows）上执行：
+#   pip install -r requirements.txt
+#
+# 版本下限为实测通过的版本；未锁死上限，便于后续升级。
+# 实测环境：Python 3.11.0 / Windows 10-11
+
+# —— 必需 ——
+pymupdf>=1.24          # PDF 抽取 / 元素级重建 / 导出（实测 1.28.2）
+fastapi>=0.110         # Web API（实测 0.135.1）
+uvicorn>=0.27          # ASGI 服务器（实测 0.41.0）
+pillow>=10.0           # 位图合成 / 预览图（实测 12.1.1）
+numpy>=1.26            # 像素统计 / 版面分析（实测 2.4.6）
+
+# —— 可选：图内文字 OCR 标注（render/annotate.py）——
+# 不装也能跑主流程；装了才能用「图示标签双层标注」功能。
+rapidocr-onnxruntime>=1.3   # OCR 引擎（实测 1.4.4，纯 onnx 无需 torch）
+onnxruntime>=1.16           # rapidocr 的推理后端（实测 1.28.0）
+
+# —— 可选：UI 自动化测试（tests/ui_smoke.py）——
+# playwright>=1.40
+#   装了之后还需执行： python -m playwright install chromium
+#   注意：测试脚本必须用 headless 且只关闭自己启动的浏览器，
+#   绝不能用「全系统 chrome PID 差集 + taskkill」清理（会杀掉用户自己的浏览器）。

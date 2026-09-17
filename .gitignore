@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------------------
+# 只提交"脚本 + 文档"。源 PDF、译好的 PDF、数据库、截图、打包产物一律不入库。
+# ---------------------------------------------------------------------------
+
+# --- 源 PDF 与中英对照产物（体积大，且版权属于 BMS 文档团队）-----------------
+origin/
+dist/
+data/
+
+# --- 本机配置：含 DeepSeek API key，**绝不入库** -----------------------------
+# 注意顺序：先排除所有 local*.json，再把不带密钥的模板放回来（后面的 ! 才能生效）。
+config/local.json
+config/local.*.json
+!config/local.example.json
+
+# --- 报告目录里的二进制/中间产物（review/*.md 要保留）-----------------------
+review/tmp/
+review/shots/
+review/shots_smoke/
+review/shots_smoke2/
+review/**/*.png
+review/**/*.pdf
+review/**/*.db
+review/**/*.db-wal
+review/**/*.db-shm
+review/**/*.webp
+review/**/*.log
+
+# --- spikes 里的样例产物（.py 脚本要保留）-----------------------------------
+spikes/**/*.png
+spikes/**/*.pdf
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# --- 编辑器 / 系统 -----------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+_chrome_profile/
